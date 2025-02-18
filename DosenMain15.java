@@ -1,5 +1,6 @@
 public class DosenMain15 {
     public static void main(String[] args) {
+        
         Dosen15 dsn1 = new Dosen15();
         dsn1.idDosen = "PYS";
         dsn1.nama = "Pramana Yoga Saputra";

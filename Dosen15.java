@@ -11,23 +11,27 @@ public class Dosen15 {
         System.out.println("Status Aktif: " + statusAktif);
         System.out.println("Tahun Bergabung: " + tahunBergabung);
         System.out.println("Bidang Keahlian: " + bidangKeahlian);
-    }
-
-    void setStatusAktif(boolean status){
-        if (statusAktif == true){
-            statusAktif = status;
+        if(statusAktif){
             System.out.println("DOSEN INI AKTIF");
         }else{
-            statusAktif = status;
             System.out.println("DOSEN INI TIDAK AKTIF");
         }
     }
 
+    void setStatusAktif(boolean status){
+        // if (statusAktif == true){
+        statusAktif = status;
+        //     System.out.println("DOSEN INI AKTIF");
+        // }else{
+        //     statusAktif = status;
+        //     System.out.println("DOSEN INI TIDAK AKTIF");
+        // }
+    }
+
     int hitungMasaKerja(int thnSkrg){
         thnSkrg -= tahunBergabung;
-        System.out.println("Lama Bekerja: " + thnSkrg + " Tahun");
+        System.out.println("\nLama Bekerja: " + thnSkrg + " Tahun");
         return thnSkrg;
-
     }
 
     void ubahKeahlian(String bidang){
