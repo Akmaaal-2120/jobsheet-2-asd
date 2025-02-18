@@ -35,6 +35,17 @@ public class Mahasiswa15{
         }
             
     }
+
+    public Mahasiswa15(){
+
+    }
+
+    public Mahasiswa15(String nm, String nim, double ipk, String kls){
+        nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        kelas = kls;
+    }
     
     public static void main(String[] args) {
         Mahasiswa15 mhs = new Mahasiswa15();
