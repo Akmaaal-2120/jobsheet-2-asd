@@ -37,13 +37,13 @@ public class Mahasiswa15{
         }
     
     public static void main(String[] args) {
-        Mahasiswa15 mhs1 = new Mahasiswa15();
-        mhs1.nama = "Akmal";
-        mhs1.nim = "244107060048";
-        mhs1.kelas = "1G";
-        mhs1.ipk = 3.8;
+        Mahasiswa15 mhs = new Mahasiswa15();
+        mhs.nama = "Akmal";
+        mhs.nim = "244107060048";
+        mhs.kelas = "1G";
+        mhs.ipk = 3.8;
 
-        mhs1.updateIpk(4.5);
+        mhs.updateIpk(4.5);
         
     }
 }
