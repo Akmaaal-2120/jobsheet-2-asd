@@ -19,13 +19,7 @@ public class Dosen15 {
     }
 
     void setStatusAktif(boolean status){
-        // if (statusAktif == true){
         statusAktif = status;
-        //     System.out.println("DOSEN INI AKTIF");
-        // }else{
-        //     statusAktif = status;
-        //     System.out.println("DOSEN INI TIDAK AKTIF");
-        // }
     }
 
     int hitungMasaKerja(int thnSkrg){
