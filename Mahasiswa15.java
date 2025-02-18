@@ -34,7 +34,7 @@ public class Mahasiswa15{
             return "Kinerja kurang";
         }
             
-        }
+    }
     
     public static void main(String[] args) {
         Mahasiswa15 mhs = new Mahasiswa15();
